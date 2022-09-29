@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Random Winner</title>
+</head>
+
+<body>
+    <div class="inputtext">
+    <p>Enter the list of names to be added in the below text area</p>        
+    <textarea name="name" id="name" style="border:dotted 2px black;"></textarea>
+    <br><br>
+    <button type="submit" id="addName">Submit</button>
+    <p id="afterAddingNames"></p>
+    <br>
+    </div>
+    <button id="btn" onclick="generateWinner()">Choosen</button>
+    <div id="namechoosen">
+    <span id="randWinner" style="display: none;"></span>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+
+</body>
+</html>
